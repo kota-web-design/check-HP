@@ -386,15 +386,32 @@ textarea:focus-visible {
   width: min(calc(100% - 48px), 1240px);
 }
 
+.service__decorations {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 1;
+  pointer-events: none;
+}
+
 .service__tiger {
   position: absolute;
-  top: 62px;
-  right: clamp(4px, 2.6vw, 42px);
-  z-index: 1;
-  width: clamp(116px, 10vw, 156px);
   height: auto;
   object-fit: contain;
+  opacity: 0.9;
   filter: drop-shadow(0 12px 18px rgba(15, 35, 72, 0.13));
+  pointer-events: none;
+}
+
+.service__tiger--lean {
+  top: clamp(68px, 5.2vw, 92px);
+  left: clamp(0px, 2.2vw, 34px);
+  width: clamp(74px, 5.2vw, 96px);
+}
+
+.service__tiger--standing {
+  top: 62px;
+  right: clamp(4px, 2.6vw, 42px);
+  width: clamp(116px, 10vw, 156px);
 }
 
 .service__grid {
@@ -1689,11 +1706,26 @@ textarea:focus-visible {
     margin-top: 22px;
   }
 
+  .service__decorations {
+    position: relative;
+    display: flex;
+    width: min(100%, 340px);
+    margin: 18px auto 12px;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   .service__tiger {
     position: static;
-    width: 94px;
-    margin: 14px 8px -8px auto;
-    opacity: 0.88;
+    opacity: 0.9;
+  }
+
+  .service__tiger--lean {
+    width: clamp(70px, 18vw, 82px);
+  }
+
+  .service__tiger--standing {
+    width: clamp(100px, 26vw, 116px);
   }
 
   .service-card {
