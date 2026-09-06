@@ -1032,19 +1032,6 @@ textarea:focus-visible {
   transform: translateX(2px);
 }
 
-.lemon__tiger {
-  position: absolute;
-  right: clamp(-64px, -4.2vw, -46px);
-  bottom: 6px;
-  z-index: 2;
-  width: clamp(102px, 7.8vw, 124px);
-  height: auto;
-  object-fit: contain;
-  opacity: 0.94;
-  filter: drop-shadow(0 10px 16px rgba(15, 35, 72, 0.12));
-  pointer-events: none;
-}
-
 /* =========================================================
    Subpages
    Company, access, and privacy page layouts.
@@ -1886,9 +1873,9 @@ textarea:focus-visible {
 
   .lemon-contact {
     margin-top: 28px;
-    margin-bottom: 42px;
+    margin-bottom: 28px;
     overflow: visible;
-    padding: 24px 16px 48px;
+    padding: 24px 16px 26px;
     border-radius: 14px;
   }
 
@@ -1927,14 +1914,6 @@ textarea:focus-visible {
     display: block;
     width: 28px;
     height: 28px;
-  }
-
-  .lemon__tiger {
-    right: -8px;
-    bottom: 10px;
-    z-index: 2;
-    width: clamp(72px, 20vw, 82px);
-    opacity: 0.94;
   }
 
   .subpage-main {
