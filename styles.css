@@ -1708,7 +1708,7 @@ textarea:focus-visible {
   }
 
   .service__tiger--lean {
-    width: clamp(70px, 18vw, 82px);
+    width: clamp(58px, 15vw, 68px);
   }
 
   .service__tiger--standing {
