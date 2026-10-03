@@ -297,7 +297,7 @@ textarea:focus-visible {
   display: grid;
   min-height: 96vh;
   min-height: 96svh;
-  background-image: url("./assets/FV.png");
+  background-image: url("./assets/FV.jpg");
   background-position: center center;
   background-size: cover;
   color: #fff;
@@ -1631,7 +1631,7 @@ textarea:focus-visible {
   .hero {
     min-height: 100vh;
     min-height: 100lvh;
-    background-image: url("./assets/FV_sp.png");
+    background-image: url("./assets/FV_sp.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: auto 118%;
